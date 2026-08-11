@@ -40,9 +40,9 @@ export const HeroSection = ({ onShopCarsClick, onTestDriveClick, onViewDetails, 
           muted
           loop
           playsInline
-          poster="/videos/final-video-min-poster.jpg"
+          poster={`${process.env.PUBLIC_URL}/videos/final-video-min-poster.jpg`}
         >
-          <source src="/videos/final-video-min.mp4" type="video/mp4" />
+          <source src={`${process.env.PUBLIC_URL}/videos/final-video-min.mp4`} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/45 to-black" />
       </div>

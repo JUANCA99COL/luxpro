@@ -64,28 +64,28 @@ export const carCategories = [
     id: 1,
     name: "Sedans",
     description: "Elegant comfort meets performance",
-    image: "/imgs/sedan.png",
+    image: `${process.env.PUBLIC_URL}/imgs/sedan.png`,
     count: 24
   },
   {
     id: 2,
     name: "SUVs",
     description: "Power and versatility combined",
-    image: "/imgs/suvs.png",
+    image: `${process.env.PUBLIC_URL}/imgs/suvs.png`,
     count: 18
   },
   {
     id: 3,
     name: "Sports Cars",
     description: "Pure adrenaline on wheels",
-    image: "/imgs/sportscar.png",
+    image: `${process.env.PUBLIC_URL}/imgs/sportscar.png`,
     count: 12
   },
   {
     id: 4,
     name: "Electric Vehicles",
     description: "The future is electric",
-    image: "/imgs/electric.png",
+    image: `${process.env.PUBLIC_URL}/imgs/electric.png`,
     count: 8
   }
 ];
@@ -96,7 +96,7 @@ export const featuredCars = [
     name: "BMW M4 Competition",
     brand: "BMW",
     price: 89900,
-    image: "/imgs/bmw-final.jpg",
+    image: `${process.env.PUBLIC_URL}/imgs/bmw-final.jpg`,
     horsepower: 503,
     availability: "In Stock",
     features: ["Twin-Turbo V6", "Carbon Fiber", "Premium Audio"],
@@ -107,7 +107,7 @@ export const featuredCars = [
     name: "Mercedes AMG C63S",
     brand: "Mercedes",
     price: 95500,
-    image: "/imgs/mercedez-final.jpg",
+    image: `${process.env.PUBLIC_URL}/imgs/mercedez-final.jpg`,
     horsepower: 469,
     availability: "In Stock",
     features: ["AMG Performance", "Luxury Interior", "Advanced Safety"],
@@ -118,7 +118,7 @@ export const featuredCars = [
     name: "Audi RS6 Avant",
     brand: "Audi",
     price: 112000,
-    image: "/imgs/audi-final.jpg",
+    image: `${process.env.PUBLIC_URL}/imgs/audi-final.jpg`,
     horsepower: 591,
     availability: "Pre-Order",
     features: ["Quattro AWD", "Dynamic Suspension", "Premium Plus"],
@@ -129,7 +129,7 @@ export const featuredCars = [
     name: "Porsche 911 GT3 RS",
     brand: "Porsche",
     price: 225000,
-    image: "/imgs/porshe-final.jpg",
+    image: `${process.env.PUBLIC_URL}/imgs/porshe-final.jpg`,
     horsepower: 518,
     availability: "Limited",
     features: ["Track Package", "Ceramic Brakes", "Aerodynamic Kit"],
@@ -140,7 +140,7 @@ export const featuredCars = [
     name: "Nissan GT-R NISMO",
     brand: "Nissan",
     price: 175000,
-    image: "/imgs/nissan-nismo.jpg",
+    image: `${process.env.PUBLIC_URL}/imgs/nissan-nismo.jpg`,
     horsepower: 600,
     availability: "In Stock",
     features: ["Twin-Turbo V6", "NISMO Tuned", "All-Wheel Drive"],
