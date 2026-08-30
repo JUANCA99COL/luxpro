@@ -57,7 +57,13 @@ export const ServicesSection = ({ onServiceClick }) => {
                 {/* Content */}
                 <div className="space-y-4">
                   <h3 className="heading-2 text-white group-hover:text-[var(--brand-primary)] transition-colors duration-300">
-                    {service.title}
+                    {service.title === 'Trade-In Program' ? (
+                      <>Trade-In<br />Program</>
+                    ) : service.title === 'Auto Financing' ? (
+                      <>Auto<br />Financing</>
+                    ) : (
+                      service.title
+                    )}
                   </h3>
 
                   <p className="body-medium text-[var(--text-secondary)]">

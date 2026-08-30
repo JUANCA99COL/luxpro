@@ -172,7 +172,7 @@ export const HeroSection = ({ onShopCarsClick, onTestDriveClick, onViewDetails, 
             >
               <motion.div
                 variants={{ hidden: { opacity: 0, y: -8 }, visible: { opacity: 1, y: 0 } }}
-                className="spec-tag absolute top-2 left-2 md:left-10 lg:left-24"
+                className="spec-tag absolute top-[-1.5rem] md:top-2 left-2 md:left-10 lg:left-24"
               >
                 <span className="spec-tag-dot" />
                 Brand: <strong>{activeCar.brand}</strong>
@@ -180,7 +180,7 @@ export const HeroSection = ({ onShopCarsClick, onTestDriveClick, onViewDetails, 
 
               <motion.div
                 variants={{ hidden: { opacity: 0, y: -8 }, visible: { opacity: 1, y: 0 } }}
-                className="spec-tag absolute top-2 right-2 md:right-10 lg:right-24"
+                className="spec-tag spec-tag-category absolute top-[-1.5rem] md:top-2 right-2 md:right-10 lg:right-24"
               >
                 <span className="spec-tag-dot" />
                 Category: <strong>{activeCar.category}</strong>
@@ -188,7 +188,7 @@ export const HeroSection = ({ onShopCarsClick, onTestDriveClick, onViewDetails, 
 
               <motion.div
                 variants={{ hidden: { opacity: 0, y: 8 }, visible: { opacity: 1, y: 0 } }}
-                className="spec-tag absolute bottom-4 right-2 md:right-8 lg:right-16"
+                className="spec-tag absolute bottom-[2rem] md:bottom-4 right-2 md:right-8 lg:right-16"
               >
                 <span className="spec-tag-dot" />
                 Engine: <strong>{activeCar.horsepower} HP</strong>

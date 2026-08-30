@@ -138,6 +138,16 @@
   box-shadow: 0 0 0 4px var(--brand-glow);
 }
 
+@media (max-width: 767px) {
+  .spec-tag-category {
+    display: none;
+  }
+
+  .overflow-x-auto {
+    overflow-x: visible;
+  }
+}
+
 /* test drive modal */
 .testDriveModal {
   margin: 20%;
@@ -385,6 +395,7 @@
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
