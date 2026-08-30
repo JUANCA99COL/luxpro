@@ -97,7 +97,7 @@ export const CarDetailsModal = ({ car, isOpen, onClose }) => {
             {/* Close Button */}
             <button
               onClick={onClose}
-              className="absolute top-4 right-4 p-2 bg-black/50 text-white hover:bg-[var(--brand-primary)] hover:text-white rounded-full transition-all duration-300"
+              className="absolute top-4 right-4 z-20 p-2 bg-black/50 text-white hover:bg-[var(--brand-primary)] hover:text-white rounded-full transition-all duration-300"
             >
               <X size={24} />
             </button>
