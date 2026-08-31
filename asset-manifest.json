@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/luxpro/static/css/main.6d240a7e.css",
-    "main.js": "/luxpro/static/js/main.a898e612.js",
+    "main.css": "/luxpro/static/css/main.b625819e.css",
+    "main.js": "/luxpro/static/js/main.72571d43.js",
     "index.html": "/luxpro/index.html",
-    "main.6d240a7e.css.map": "/luxpro/static/css/main.6d240a7e.css.map",
-    "main.a898e612.js.map": "/luxpro/static/js/main.a898e612.js.map"
+    "main.b625819e.css.map": "/luxpro/static/css/main.b625819e.css.map",
+    "main.72571d43.js.map": "/luxpro/static/js/main.72571d43.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d240a7e.css",
-    "static/js/main.a898e612.js"
+    "static/css/main.b625819e.css",
+    "static/js/main.72571d43.js"
   ]
 }
